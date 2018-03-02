@@ -7,7 +7,7 @@ const url = argv._[0];
 delete argv['_'];
 
 if (!url) {
-  console.error('usage: instapooper url [--save-dir=./]');
+  console.error('usage: instapooper url [-v] [--save-dir=./]');
 }
 
 (async () => {

@@ -21,5 +21,5 @@ npm link
 It's pretty straightforward.
 
 ```
-$ instapooper [url] [--save-dir=./]
+$ instapooper url [-v] [--save-dir=./]
 ```

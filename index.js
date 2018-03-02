@@ -7,8 +7,7 @@ const rimraf = require('rimraf-promise');
 const readability = require('node-readability');
 
 const _defaults = {
-  'save-dir': './',
-  'v' : true
+  'save-dir': './'
 }
 
 
@@ -92,7 +91,7 @@ const instapooper = async function(url, options={}) {
 
     print('Sending to bluetooth');
     await send_to_bluetooth(file);
-    await prompt('Press any key to finish up and delete file');
+    await prompt('Press enter when done');
     
     return rimraf(file);
   }
