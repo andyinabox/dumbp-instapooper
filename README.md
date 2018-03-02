@@ -23,3 +23,7 @@ It's pretty straightforward.
 ```
 $ instapooper url [-v] [--save-dir=./]
 ```
+
+ - `url` (required) url to download
+ - `--save-dir` set the directory to save file to (defaults to current directory)
+ - `-v` enable verbose mode
