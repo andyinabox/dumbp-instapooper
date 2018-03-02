@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "instapooper": "bin/cli.js"
+  },
   "dependencies": {
     "lodash.kebabcase": "^4.1.1",
     "minimist": "^1.2.0",
